@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding-inline-start: 0;
+  box-sizing: border-box;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+.navigation {
+  border-bottom: 3px solid rgba(128, 128, 128, 0.103);
+}
+.navigation_bar {
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+}
+
+.myntra_logo {
+  height: 36px;
+  margin-left: 20px;
+  width: 53px;
+}
+.nav_items_indivisual {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px;
+  color: #282c3f;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav_items a:hover {
+  color: #fb56c1;
+}
+.nav_items_indivisual sup {
+  margin-left: 3px;
+  color: rgb(255, 61, 97);
+  font-size: 9px;
+}
+.nav_items {
+  justify-content: space-between;
+  font-size: 14px;
+}
+.search_bar {
+  display: flex;
+}
+.search_box {
+  display: flex;
+  border: none;
+  /* border-radius: 20px; */
+  border-radius: 0 10px 10px 0;
+  background-color: #f5f5f6;
+  height: 40px;
+  min-width: 320px;
+}
+.search-icon {
+  box-sizing: content-box;
+  height: 40px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+  color: #8b8788;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  background-color: #f5f5f6;
+}
+.action_bar {
+  display: flex;
+  justify-content: space-between;
+}
+.search_bar input {
+}
+.action_container {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.actionBar_text {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+.actionBar_text:hover {
+  cursor: pointer;
+  color: #0fbd66;
+}
+/* banner */
+.banner-img{
+    margin-top: 50px;
+    width: 100%;
+}
+/*after body*/
+.body-text{
+   margin: 30px 60px 30px 60px;
+}
+.body-img img{
+    height: 240.25px;
+    width: 183px;
+    margin: 20px;
+}
+.body-img{
+    display: flex;
+    padding: 70px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bodyN-img img{
+    height: 240.25px;
+    width: 183px;
+    margin: 20px;
+}
+.bodyN-img{
+    display: flex;
+    padding: 70px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
